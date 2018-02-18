@@ -7,6 +7,6 @@ namespace ThoughtWorksBattlefield.Builders
         IBattleFieldBuilder SetShipCount(string shipCount);
         IBattleFieldBuilder SetupPlayers();
         IBattleFieldBuilder SetupController();
-        IBattleField Build();
+        IBattleFieldGame Build();
     }
 }

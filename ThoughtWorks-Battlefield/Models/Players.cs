@@ -1,7 +1,5 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Collections.Generic;
-using ThoughtWorks_Battlefield;
 using ThoughtWorksBattlefield.Common;
 
 namespace ThoughtWorksBattlefield

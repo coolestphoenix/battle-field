@@ -1,18 +1,9 @@
-﻿using System;
-namespace ThoughtWorksBattlefield
+﻿namespace ThoughtWorksBattlefield
 {
-    public interface IBattleField
+    public interface IBattleFieldGame
     {
-        int Height
-        {
-            get;
-            set;
-        }
-        int Width
-        {
-            get;
-            set;
-        }
+        int Height { get; set; }
+        int Width { get; set; }
         int ShipCount { get; set; }
         Player Player1 { get; set; }
         Player Player2 { get; set; }

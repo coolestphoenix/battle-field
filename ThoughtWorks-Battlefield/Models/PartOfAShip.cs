@@ -1,10 +1,9 @@
-﻿using System;
-namespace ThoughtWorksBattlefield
+﻿namespace ThoughtWorksBattlefield
 {
 
     public class PartOfAShip
     {
-        public Position position;
-        public int strengthRemaining;
+        public Position position { get; set; }
+        public int strengthRemaining { get; set; }
     }
 }

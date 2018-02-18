@@ -3,7 +3,7 @@ using ThoughtWorksBattlefield.Common;
 
 namespace ThoughtWorksBattlefield
 {
-    public class BattleField : IBattleField
+    public class BattleFieldGame : IBattleFieldGame
     {
         public int Height { get; set; }
         public int Width { get; set; }

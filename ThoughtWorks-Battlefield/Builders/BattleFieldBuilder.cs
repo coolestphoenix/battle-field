@@ -5,13 +5,13 @@ namespace ThoughtWorksBattlefield.Builders
 {
     public class BattleFieldBuilder : IBattleFieldBuilder
     {
-        private readonly IBattleField _battleField;
+        private readonly IBattleFieldGame _battleField;
         public BattleFieldBuilder()
         {
-            _battleField = new BattleField();
+            _battleField = new BattleFieldGame();
         }
 
-        public IBattleField Build()
+        public IBattleFieldGame Build()
         {
             return this._battleField;
         }

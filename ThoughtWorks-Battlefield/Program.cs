@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using ThoughtWorksBattlefield;
 using ThoughtWorksBattlefield.Builders;
-using ThoughtWorksBattlefield.Common;
 
 namespace ThoughtWorks_Battlefield
 {
@@ -34,9 +30,5 @@ namespace ThoughtWorks_Battlefield
 
             battleField.StartGame();
         }
-
-
-
     }
-
 }
