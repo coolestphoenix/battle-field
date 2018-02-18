@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Builders\" />
+    <Folder Include="Field\" />
+    <Folder Include="Common\" />
+    <Folder Include="GameEngine\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>
